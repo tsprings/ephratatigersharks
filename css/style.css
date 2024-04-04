@@ -37,7 +37,7 @@ body #wrapper #navigation ul {
     margin-left: 0;
     font-family: "Russo One", "Archivo Black";
 }
-body h1, body h2, body h3, body h4, body #secondary_navigation {
+body h1, body h2, body h3, body h4, body #secondary_navigation, body .sign_in .heading {
     font-family: "Josefin Sans", "Russo One", "Archivo Black";
 }
 body #secondary_navigation a {
