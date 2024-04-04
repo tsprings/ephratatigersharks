@@ -25,7 +25,7 @@ body #wrapper #navigation ul {
     font-family: "Russo One", "Archivo Black";
 }
 body h1, body h2, body h3, body h4, body #secondary_navigation {
-    font-family: "Russo One", "Archivo Black";
+    font-family: "Josefin Sans", "Russo One", "Archivo Black";
 }
 body #secondary_navigation a {
     color: black;
@@ -35,9 +35,23 @@ body #secondary_navigation a {
     background: #306fa8;
     margin: -20px -20px 30px -20px;
 }
+#wrapper #container #secondary_navigation ul {
+    margin-left: 3px;
+}
 #wrapper #navigation ul li.active a.indicator{
     padding:0;}
-body #wrapper #container #secondary_navigation ul li a{ color:white;}
+body #wrapper #container #secondary_navigation ul li a{
+    display: block;
+    text-decoration: none;
+    background: #b7c8db;
+    color: black;
+    padding: 4px 9px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+body #wrapper #container #secondary_navigation ul li a:hover{
+    background-color: white;
+}
 
 #wrapper #navigation ul li.active {
     box-shadow: 0 0 12px -2px #426fa5;
