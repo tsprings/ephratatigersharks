@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Color+Emoji&family=Russo+One&display=swap')
-body #container {
-    font-family: "Montserrat" !important;
+html body, html body #container {
+    font-family: 'Montserrat', 'Josefin Sans', sans-serif;
     font-size: 1em;
 }
 body #wrapper #navigation{
