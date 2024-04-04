@@ -3,6 +3,7 @@
 body #wrapper #navigation{
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    height: 42px;
 }
 body #wrapper #header {
     padding-left: 0;
@@ -18,7 +19,7 @@ body #wrapper #header .hgroup h1{
 }
 body #wrapper #navigation ul {
     position: absolute;
-    top: -3px;
+    top: 1px;
     left: 10px;
     z-index: 61;
     margin-left: 0;
@@ -72,4 +73,13 @@ body #wrapper #container #secondary_navigation ul li a:hover{
 #wrapper #container .snippet.announcement_snippet {
     background-color: #dff0ff;
     color: #000;
+}
+.buttonLink{
+    background: #426fa5;
+    color: white;
+    padding: 11px 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1px solid #43679c
 }
