@@ -98,3 +98,8 @@ body #wrapper #container .snippet.announcement_snippet a.buttonLink {
 body #wrapper #container .snippet.announcement_snippet a.buttonLink:hover {
     background: #2f5c91;
 }
+.snippet_top h2 {
+    font-size: 38px;
+    color: #151719;
+    font-family: 'Russo One';
+}
