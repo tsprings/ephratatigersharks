@@ -43,11 +43,15 @@ body #secondary_navigation a {
 body #wrapper #container #secondary_navigation ul li a{
     display: block;
     text-decoration: none;
-    background: #b7c8db;
+    background: #cde3fb;
     color: black;
     padding: 4px 9px;
     font-weight: bold;
     border-radius: 4px;
+}
+#wrapper #container #secondary_navigation ul li.active.root ul li a {
+    display: block;
+    text-decoration: none;
 }
 body #wrapper #container #secondary_navigation ul li a:hover{
     background-color: white;
