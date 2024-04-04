@@ -42,3 +42,7 @@ body #wrapper #container #secondary_navigation ul li a{ color:white;}
 #wrapper #navigation ul li.active {
     box-shadow: 0 0 12px -2px #426fa5;
 }
+
+#wrapper #container #secondary_navigation ul li:first-child{
+    margin-left: 0;
+}
