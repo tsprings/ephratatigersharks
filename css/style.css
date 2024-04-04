@@ -103,3 +103,16 @@ body #wrapper #container .snippet.announcement_snippet a.buttonLink:hover {
     color: #151719;
     font-family: 'Russo One';
 }
+body #wrapper #navigation ul li ul {
+    background-color: #6bace7;
+}
+body #wrapper #navigation ul li ul li {
+    border-top: none !important;
+    width: 145px;
+    padding: 10px 10px 5px 10px;
+}
+
+body #wrapper #navigation ul li ul li a:hover{
+    color:white;
+    text-decoration: none;
+}
