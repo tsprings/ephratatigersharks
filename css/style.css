@@ -46,3 +46,8 @@ body #wrapper #container #secondary_navigation ul li a{ color:white;}
 #wrapper #container #secondary_navigation ul li:first-child{
     margin-left: 0;
 }
+
+#wrapper #container .snippet.announcement_snippet {
+    background-color: #dff0ff;
+    color: #000;
+}
