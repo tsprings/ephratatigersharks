@@ -49,6 +49,10 @@ body #wrapper #container #secondary_navigation ul li a{
     font-weight: bold;
     border-radius: 4px;
 }
+body #wrapper #container #secondary_navigation ul li {
+     border-right: none;
+    padding-right: 2px;
+}
 #wrapper #container #secondary_navigation ul li.active.root ul li a {
     display: block;
     text-decoration: none;
