@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lilita+One&family=Noto+Color+Emoji&family=Russo+One&display=swap')
-
+body {
+font-family: "Montserrat";
+}
 body #wrapper #navigation{
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -39,6 +41,9 @@ body #wrapper #navigation ul {
 }
 body h1, body h2, body h3, body h4, body #secondary_navigation, body .sign_in .heading {
     font-family: "Josefin Sans", "Russo One", "Archivo Black";
+}
+body .sign_in .heading {
+    font-weight: bold !important;
 }
 body #secondary_navigation a {
     color: black;
