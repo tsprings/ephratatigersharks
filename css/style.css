@@ -1,0 +1,38 @@
+body #wrapper #navigation{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+body #wrapper #header {
+    padding-left: 0;
+    height: 110px;
+}
+body #wrapper #header .hgroup h1{ text-shadow:none }
+body #wrapper #header .hgroup h1{
+    font-family: "Russo One", "Archivo Black", sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+    font-style: normal;
+    font-size: 58px !important;
+}
+body #wrapper #navigation ul {
+    position: absolute;
+    top: -3px;
+    left: 10px;
+    z-index: 61;
+    margin-left: 0;
+    font-family: "Russo One", "Archivo Black";
+}
+body h1, body h2, body h3, body h4, body #secondary_navigation {
+    font-family: "Russo One", "Archivo Black";
+}
+body #secondary_navigation a {
+    color: black;
+}
+#wrapper #container #secondary_navigation {
+    padding: 12px 0;
+    background: #306fa8;
+    margin: -20px -20px 30px -20px;
+}
+#wrapper #navigation ul li.active a.indicator{
+    padding:0;}
+body #wrapper #container #secondary_navigation ul li a{ color:white;}
