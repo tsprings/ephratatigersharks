@@ -74,7 +74,7 @@ body #wrapper #container #secondary_navigation ul li a:hover{
     background-color: #dff0ff;
     color: #000;
 }
-a.buttonLink {
+body #wrapper #container .snippet.announcement_snippet a.buttonLink {
     background: #426fa5;
     color: white;
     padding: 11px 15px;
@@ -83,6 +83,6 @@ a.buttonLink {
     text-decoration: none;
     border: 1px solid #43679c
 }
-a.buttonLink:hover {
+body #wrapper #container .snippet.announcement_snippet a.buttonLink:hover {
     background: #2f5c91;
 }
