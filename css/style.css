@@ -19,6 +19,9 @@ body #wrapper #header .hgroup h1{
     font-style: normal;
     font-size: 58px !important;
 }
+body #wrapper #navigation ul li {
+    height: 36px;
+}
 body #wrapper #navigation ul li.active {
     margin-top: -4px;
     -webkit-border-top-right-radius: 6px;
